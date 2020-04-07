@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+<%= svelte_component("ContactCount") %>
+<h1>Contacts</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Twitter</th>
+      <th>Phone</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <%= svelte_component("ContactList", {contacts: @contacts}, tag: "tbody") %>
+</table>
+
+<br>
+
+<%= svelte_component("NewContactButton") %>
