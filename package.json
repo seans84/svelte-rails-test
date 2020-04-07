@@ -8,11 +8,11 @@
     "@rails/webpacker": "4.2.2",
     "svelte": "^3.20.1",
     "svelte-loader": "^2.13.6",
-    "turbolinks": "^5.2.0"
+    "turbolinks": "^5.2.0",
+    "webpacker-svelte": "^0.1.0"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack-dev-server": "^3.10.3",
-    "webpacker-svelte": "^0.1.0"
+    "webpack-dev-server": "^3.10.3"
   }
 }
